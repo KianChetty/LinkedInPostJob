@@ -1,0 +1,201 @@
+﻿@page "/"
+
+<style>
+   @@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .wrapper-job {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d8e2dc;
+    }
+
+    .view-jobs {
+        padding: 10px;
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        height: 90%;
+        max-height: 700px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        overflow-y: scroll;
+        border-radius: 5px; 
+    }
+
+    .job-name{
+          width: 100% ;
+          height: 10% ;
+          display: flex;
+          justify-content: center ;
+          align-items: center ;
+     
+
+
+
+    }
+
+    .company-name {
+        padding-left: 20px;
+        width: 100%;
+        height: 10%;
+        display: flex ;
+        justify-content: flex-start ;
+        align-items: center ;
+   
+    }
+
+    .job-type {
+        padding: 20px;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: flex-start ;
+        align-items: center ;
+    
+    }
+
+    .job-type span{
+
+        margin-left: 10px;
+
+    }
+
+    .apply-button {
+        padding: 20px;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      
+    }
+
+
+    .posted-by {
+        padding: 20px;
+        width: 100%;
+        height: 10%;
+        display: flex ;
+        justify-content: flex-start;
+        align-items: center;
+    
+    }
+
+
+    .description {
+        padding: 20px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+      
+
+    }
+    .description p { 
+        line-height: 26px; 
+    }
+</style>
+
+<div class="wrapper-job">
+
+    <div class="view-jobs">
+
+        <div class="job-name">
+            <h3>Senior business intelligence analyst</h3>
+
+        </div>
+
+        <div class="company-name">
+
+            <span>Cisco | Eastern Cape, South Africa </span>
+
+        </div>
+
+
+
+        <div class="job-type">
+             <img src="images\briefcase.jpg" width="50" height="50"> <span>Full Time</span>
+          
+
+            </div>
+
+        <div class="apply-button">
+            
+            <button type="button" class="btn btn-primary btn-sm">Apply</button>
+
+        </div>
+
+        <div class="posted-by">
+
+
+
+            <p>Posted by <strong>Jane Doe</strong></p>
+
+
+        </div>
+
+        <hr />
+
+        <div class="description">
+         <p>  The relationship between Cisco Sales, Marketing, and Insights & Analytics is vital in crafting a consistent customer experience. The pivotal point of this relationship will be inspired by the integration of a fully aligned data strategy to support, prioritize and guide business objectives and go-to-market execution. The regional marketing analyst will be the liaison between the global insights and analytics functions and the marketing and sales side of the business to ensure strategic priorities are integrated into each aspect of marketing insights and analytics.
+
+
+             <strong>What You’ll Do</strong>
+
+            Develop data and visualization requirements in support of marketing performance and metrics, and monthly/quarterly business reviews.
+            Communicate, analyze and derive insights aligned to Global Marketing KPIs (key performance indicators) and goals. “Tell the impact of marketing on the business story” using the KPIs as lens.
+            Partner with marketing campaign analysts to understand impact and takeaways of always on journeys, marketing campaign execution; align insights back to region and country.
+            You will understand the business application of the Cisco product portfolio via product migration paths, sales objectives, key customer segments, market competition, etc.
+            Facilitate and collaborate with stakeholders to understand criticalities in the business, use cases, strategic focus. Provide feedback, outline capabilities, present analysis, insights and recommendations for next steps.
+            Collaborate with global partner analysts to understand partner performance and recommendations as relates to specific regions.
+
+             <strong>Who You’ll Work With </strong>
+
+            Region marketing leadership and supporting teams to understand marketing, sales, and partner priorities, strategies, and go-to-market (GTM) plans within your region.
+            You will work across all marketing functions, collaborating with multiple individuals of all regional hierarchy levels From executive VPs to product managers to marketing program execution teams.
+            In this ‘global’ role, you will work with and alongside all global insights and analytics team peers and stakeholders in strategic insights, advanced analytics, market research, brand and data teams.
+
+             <strong>Who You Are </strong>
+
+            Come to work with a creative can-do attitude and innovation mind set in a rapid changing environment
+            Have experience in marketing program execution, strategy and planning, or analyzing and gathering insights from marketing programs and campaigns
+            Have a toolkit of technical skills enabling data exploration, multi-faceted analysis, and complex analysis
+            Have experience with digital marketing data tools Adobe Analytics, Google Analytics
+            A superb communicator and analytics story-teller
+            Disciplined and process oriented; proven attention to detail
+            Have 8-10 years of experience in a marketing or business data analysis and insights role
+
+             <strong>Technical Skills</strong>
+
+            Consultation and/or development of visualizations via Domo, Tableau or Power BI.
+            Data exploration skills require SQL, R, or logic knowledge to guide deep data analysis
+            Cisco Internal tools experience helpful Snowflake, Centro, SFDC, CLaiR and GTB </p>
+
+        </div>
+
+    </div>
+
+ </div>
+
+
+
+
+
+
+
+
+
+@code {
+
+   
+   
+
+}
